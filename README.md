@@ -1,1 +1,1 @@
-# Human-Fall-Detection-
+# Human-Activity-Detection
