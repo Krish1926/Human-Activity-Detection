@@ -18,23 +18,23 @@ accuracy\*\*** and **\*\*computational performance\*\***.
 
 \## \*\* Objectives\*\*
 
-\- 🔹 Perform an in-depth review of human activity detection research,
+\-  Perform an in-depth review of human activity detection research,
 focusing on **\*\*ensemble learning models\*\***.  
 
-\- 🔹 Prepare the dataset by **\*\*cleaning, normalizing\*\***, and
+\-  Prepare the dataset by **\*\*cleaning, normalizing\*\***, and
 handling **\*\*imbalanced classes\*\***.  
 
-\- 🔹 Develop and evaluate **\*\*base classifiers\*\***: Support Vector
+\-  Develop and evaluate **\*\*base classifiers\*\***: Support Vector
 Machine (SVM), k-Nearest Neighbors (k-NN), and Decision Tree (DT).  
 
-\- 🔹 Train and evaluate **\*\*meta-learners\*\***: Logistic Regression
+\-  Train and evaluate **\*\*meta-learners\*\***: Logistic Regression
 (LR), Gradient Boosting (GB), and Multi-layer Perceptron (MLP).  
 
-\- 🔹 Construct and compare **\*\*stacking and voting ensembles\*\***,
+\-  Construct and compare **\*\*stacking and voting ensembles\*\***,
 evaluating them based on **\*\*accuracy, precision, recall,
 F1-score\*\***, and **\*\*computational time\*\***.  
 
-\- 🔹 Identify the **\*\*optimal ensemble configuration\*\*** for high
+\- Identify the **\*\*optimal ensemble configuration\*\*** for high
 performance with efficiency.
 
 \-\--
@@ -57,8 +57,6 @@ performance with efficiency.
 
 \- \`scikit-learn\`  
 
-\- \`imblearn\` (SMOTE oversampling)  
-
 \- \`matplotlib\` / \`seaborn\` (data visualization)
 
 \-\--
@@ -69,7 +67,7 @@ performance with efficiency.
 via IEEE DataPort.  
 
 2\. **\*\*Data Preprocessing\*\***: Handle null values, removing dupilcate
-values and balancing data.
+values and imbalancing data.
 
 3\. **\*\*Base Classifiers Training\*\***: SVM, k-NN, Decision Tree with
 2-fold stratified cross-validation.  
@@ -91,7 +89,7 @@ combination.
 
 \-\--
 
-\## \*\*🗂 Total Number of Files\*\*
+\## \*\* Total Number of Files\*\*
 
 \- **\*\*file:\*\*** \`All Users Combined.csv\` -- Contains the
 combined sensor data of all subjects used for training and evaluating
@@ -99,7 +97,7 @@ the base classifiers (SVM, k-NN, DT).
 
 \-\--
 
-\## \*\*📊 Results\*\*
+\## \*\* Results\*\*
 
 **\*\*Performance Metrics of Models:\*\***
 
@@ -169,7 +167,7 @@ real-world wearable human activity detection
 
 \-\--
 
-\## \*\*🔜 Future Work\*\*
+\## \*\* Future Work\*\*
 
 \- Explore **\*\*hierarchical ensembles\*\***  
 
