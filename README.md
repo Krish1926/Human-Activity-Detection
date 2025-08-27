@@ -1,5 +1,5 @@
 # Human-Activity-Detection
-\## \*\*🧐 Research Question\*\*
+\## \*\* Research Question\*\*
 
 *\*What is the optimal combination of base learners and meta-learners to
 achieve the best trade-off between accuracy and computational efficiency
@@ -7,7 +7,7 @@ in human activity detection?\**
 
 \-\--
 
-\## \*\*🎯 Aim\*\*
+\## \*\* Aim\*\*
 
 To **\*\*design, implement, and evaluate\*\*** an ensemble learning
 framework combining various base learners and meta-learners to find the
@@ -16,7 +16,7 @@ accuracy\*\*** and **\*\*computational performance\*\***.
 
 \-\--
 
-\## \*\*📌 Objectives\*\*
+\## \*\* Objectives\*\*
 
 \- 🔹 Perform an in-depth review of human activity detection research,
 focusing on **\*\*ensemble learning models\*\***.  
@@ -39,7 +39,7 @@ performance with efficiency.
 
 \-\--
 
-\## \*\*⚙️ Tools Required\*\*
+\## \*\* Tools Required\*\*
 
 \- **\*\*Python\*\***  
 
@@ -49,7 +49,7 @@ performance with efficiency.
 
 \-\--
 
-\## \*\*🧰 Packages Used\*\*
+\## \*\* Packages Used\*\*
 
 \- \`numpy\`  
 
@@ -63,7 +63,7 @@ performance with efficiency.
 
 \-\--
 
-\## \*\*📝 Steps Included in the Research\*\*
+\## \*\* Steps Included in the Research\*\*
 
 1\. **\*\*Data Acquisition\*\***: HARSense dataset from NIT Meghalaya
 via IEEE DataPort.  
@@ -93,7 +93,7 @@ combination.
 
 \## \*\*🗂 Total Number of Files\*\*
 
-\- **\*\*file1:\*\*** \`All Users Combined.csv\` -- Contains the
+\- **\*\*file:\*\*** \`All Users Combined.csv\` -- Contains the
 combined sensor data of all subjects used for training and evaluating
 the base classifiers (SVM, k-NN, DT).   
 
@@ -152,7 +152,7 @@ the base classifiers (SVM, k-NN, DT).
 
 \-\--
 
-\## \*\*💡 Conclusion\*\*
+\## \*\* Conclusion\*\*
 
 Stacking Ensemble with **\*\*LR\*\*** as meta-classifier is the most
 effective configuration.  
