@@ -68,11 +68,11 @@ performance with efficiency.
 1\. **\*\*Data Acquisition\*\***: HARSense dataset from NIT Meghalaya
 via IEEE DataPort.  
 
-2\. **\*\*Data Preprocessing\*\***: Handle null values, apply SMOTE for
-class balancing.  
+2\. **\*\*Data Preprocessing\*\***: Handle null values, removing dupilcate
+values and balancing data.
 
 3\. **\*\*Base Classifiers Training\*\***: SVM, k-NN, Decision Tree with
-5-fold stratified cross-validation.  
+2-fold stratified cross-validation.  
 
 4\. **\*\*Meta-Learners Training\*\***: LR, GB, MLP on predictions from
 base classifiers.  
@@ -95,14 +95,7 @@ combination.
 
 \- **\*\*file1:\*\*** \`All Users Combined.csv\` -- Contains the
 combined sensor data of all subjects used for training and evaluating
-the base classifiers (SVM, k-NN, DT).  
-
-\- **\*\*file2:\*\***
-\`Data_preprocessing_and_ML_implementation_of_Human_Activity_Detection.ipynb\`
--- Notebook for data cleaning, SMOTE oversampling, and implementation of
-machine learning models.
-
- 
+the base classifiers (SVM, k-NN, DT).   
 
 \-\--
 
