@@ -1,6 +1,6 @@
 # Human-Activity-Detection
 ### Introduction 
-Context: Human Activity Recognition (HAR) is vital for healthcare, eldercare, and wearable tech.
+<pContext: Human Activity Recognition (HAR) is vital for healthcare, eldercare, and wearable tech./p>
 Problem: Traditional systems struggle with accuracy and computational efficiency.
 Solution: Ensemble learning with meta-classifiers to improve robustness and performance.
 Aim: Design an optimized framework for accurate and efficient HAR using sensor data.
